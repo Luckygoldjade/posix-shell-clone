@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# --- Visual Studio 2022 ---
+.vs/
+.vscode/
+*.user
+*.suo
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.obj
+*.exe
+*.pdb
+*.dll
+*.lib
+*.pyproj.user
+
+# Build directories
+release/
+
+# Compiled object files
+*.o
+*.obj
+
+# Executable binaries
+*.out
+*.elf
+
+# Core dumps
+core
+core.*
+
+# Editor and system-specific files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Log and debug files
+*.log
+*.trace
+
+# GDB and debugging
+.gdb_history
+.gdbinit
+
+# Make clean backups
+*.bak
+*.tmp
+
+# CTags
+tags
+TAGS
