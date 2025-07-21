@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "signal.h": "c",
+        "runner.h": "c",
+        "gprintf.h": "c"
+    }
+}
