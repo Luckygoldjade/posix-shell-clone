@@ -8,7 +8,21 @@
 
 ## Project Showcase
 
-- **Screenshots**: Demonstrate BigShell in action with common shell tasks like `cd`, `pwd`, pipelines, I/O redirection, and variable expansion.
+- **Screenshots**: 
+BigShell supports key POSIX shell features including built-ins, job control, pipelines, I/O redirection, and signal handling.
+
+The following categories are demonstrated in annotated test examples:
+
+- `exit` built-in with custom status codes
+- Variable assignment and `export` to environment
+- Output redirection (`>`), with overwrite protection
+- Command pipelines using `|` (e.g., `echo | sed | cat`)
+- Signal handling (e.g., `SIGINT`, `SIGTSTP`, `SIGTTOU`)
+- Background jobs with `$!` tracking
+
+> View annotated terminal tests and screenshots:  
+> [`BigShell_Annotated_Tests.pdf`](./docs/screenshots/BigShell_Annotated_Tests_072325_v01.pdf)
+
 - **Executable Binaries**:  
   - `release/` — optimized build  
   - `debug/` — debug symbols included  
@@ -92,7 +106,7 @@ gdb ./bigshell
 
 See the final report: [`BigShell_Report.pdf`](./docs/CS374_BigShell_Report_113024_v04.docx)
 
-Screenshots: available under [`docs/screenshots/`](./docs/screenshots/)
+Screenshots: available under [`docs/screenshots/`](./docs/screenshots/BigShell_Annotated_Tests_072325_v01.pdf)
 
 ---
 
@@ -100,12 +114,12 @@ Screenshots: available under [`docs/screenshots/`](./docs/screenshots/)
 
 ```
 .
-- release/                # Compiled release version
-- debug/                  # Compiled debug version with symbols
+- release/                                  # Compiled release version
+- debug/                                    # Compiled debug version with symbols
 - docs/
-  -- CS374_BigShell_Report_113024_v04.docx   # Full project report
-  -- screenshots/        # Images of the shell in action
-- README.md               # This file
+  -- CS374_BigShell_Report_113024_v04.docx  # Full project report
+  -- screenshots/                           # Images of the shell in action
+- README.md                                 # This file
 ```
 
 ---
