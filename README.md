@@ -27,7 +27,7 @@ The following categories are demonstrated in annotated test examples:
   - `release/` — optimized build  
   - `debug/` — debug symbols included  
 - **Documentation**:  
-  - Full system report: [`BigShell_Report.pdf`](./docs/CS374_BigShell_Report_113024_v04.docx)
+  - Full system report: [`BigShell_Report.pdf`](./docs/CS374_BigShell_Report_113024_v04.pdf)
 
 ---
 
@@ -104,7 +104,7 @@ gdb ./bigshell
 
 ## Documentation
 
-See the final report: [`BigShell_Report.pdf`](./docs/CS374_BigShell_Report_113024_v04.docx)
+See the final report: [`BigShell_Report.pdf`](./docs/CS374_BigShell_Report_113024_v04.pdf)
 
 Screenshots: available under [`docs/screenshots/`](./docs/screenshots/BigShell_Annotated_Tests_072325_v01.pdf)
 
